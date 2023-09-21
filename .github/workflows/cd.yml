@@ -1,0 +1,30 @@
+name: Continuous Deployment
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install devbox
+        uses: jetpack-io/devbox-install-action@v0.7.0
+        with:
+          enable-cache: 'true'
+          project-path: './'
+
+      - name: Build
+        run: devbox run -- pnpm build
+
+      - name: Version packages
+        run: devbox run -- npx changeset version
+
+      - name: Publish packages
+        run: devbox run -- npx changeset publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
