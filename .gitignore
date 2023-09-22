@@ -1,2 +1,9 @@
+.cache
+.DS_Store
+.env
+.turbo
+.turbo
+*.local
+*.log
+dist
 node_modules
-
