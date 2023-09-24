@@ -4,12 +4,14 @@
 		"packages/*"
 	],
 	"scripts": {
-		"build": "turbo run build",
-		"dev": "turbo run dev --no-cache --continue",
+		"build": "turbo build",
+		"dev": "turbo dev --no-cache --continue",
 		"format": "prettier --write \"**/*.{js,json,md,ts}\"",
-		"lint": "turbo run lint",
+		"lint": "turbo lint",
 		"prepare": "husky install",
-		"test": "turbo run test"
+		"publish": "changeset publish",
+		"release": "pnpm run build && pnpm run publish",
+		"test": "turbo test"
 	},
 	"devDependencies": {
 		"@changesets/cli": "^2.26.2",
