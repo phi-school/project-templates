@@ -39,6 +39,8 @@ jobs:
         uses: changesets/action@v1
         with:
           publish: devbox run -- pnpm release
+          title: 📦 Version and Release Packages
+          commit: 📦 Version and Release Packages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
