@@ -6,6 +6,7 @@
 	"scripts": {
 		"build": "turbo build",
 		"dev": "turbo dev --no-cache --continue",
+		"create-package": "node scripts/create-package.js",
 		"format:check": "prettier --check \"**/*.{js,json,md,ts}\"",
 		"format": "prettier --write \"**/*.{js,json,md,ts}\"",
 		"lint": "turbo lint",
@@ -20,6 +21,7 @@
 		"@commitlint/cli": "^17.7.1",
 		"@commitlint/config-conventional": "^17.7.0",
 		"@types/node": "^20.6.3",
+		"dotenv": "^16.3.1",
 		"eslint": "^8.49.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^14.0.1",
