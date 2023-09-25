@@ -8,6 +8,6 @@
 		"dev": {},
 		"lint": {},
 		"test": {},
-		"typeCheck": {}
+		"type-check": {}
 	}
 }

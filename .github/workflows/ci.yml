@@ -9,7 +9,7 @@ on:
       - 'main'
 
 jobs:
-  build:
+  ci:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,8 +21,17 @@ jobs:
           enable-cache: 'true'
           project-path: './'
 
-      - name: Run lint
+      - name: Run Lint
         run: devbox run -- pnpm lint
 
-      - name: Run tests
+      - name: Check Format
+        run: devbox run -- pnpm format:check
+
+      - name: Run Tests
         run: devbox run -- pnpm test
+
+      - name: Run Type Check
+        run: devbox run -- pnpm type-check
+
+      - name: Build Project
+        run: devbox run -- pnpm build
