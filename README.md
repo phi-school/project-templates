@@ -7,7 +7,7 @@
 - [Turborepo](https://turbo.build/repo)
 - [Changesets](https://github.com/changesets/changesets)
 - [Vitest](https://vitest.dev/)
-- [tsup](https://github.com/egoist/tsup)
+- [pkgroll](https://github.com/privatenumber/pkgroll)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [commitlint](https://github.com/conventional-changelog/commitlint)
