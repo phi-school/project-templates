@@ -1,0 +1,13 @@
+# .monorepo-root
+
+This file serves as a marker to indicate the root directory of the monorepo. It
+does not contain any configuration or settings; its mere presence is used by
+scripts and tooling to programmatically identify the root of the monorepo.
+
+Committing to Source Control: 
+
+It is essential to commit the `.monorepo-root`
+file to source control to ensure consistent behavior across different
+environments and for all team members. This way, any clone of the repository
+will have this file, allowing scripts and tools to correctly identify the
+monorepo root, regardless of the environment they are run in.
