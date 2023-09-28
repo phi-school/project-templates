@@ -1,0 +1,21 @@
+{
+	"private": true,
+	"name": "create-package",
+	"main": "./dist/main.mjs",
+	"types": "./dist/main.d.ts",
+	"exports": {
+		"import": {
+			"types": "./dist/main.d.mts",
+			"default": "./dist/main.mjs"
+		}
+	},
+	"scripts": {
+		"build": "tsup",
+		"lint": "eslint --cache .",
+		"type-check": "tsc"
+	},
+	"dependencies": {
+		"enquirer": "^2.4.1",
+		"script-utils": "workspace:*"
+	}
+}

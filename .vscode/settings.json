@@ -1,5 +1,5 @@
 {
-	"cSpell.words": ["devbox", "jetpack", "pkgroll"],
+	"cSpell.words": ["devbox", "jetpack", "pkgroll", "treeshake"],
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
