@@ -3,15 +3,10 @@
 		"allowImportingTsExtensions": true,
 		"allowJs": true,
 		"allowSyntheticDefaultImports": true,
-		"baseUrl": ".",
-		"composite": true,
-		"downlevelIteration": true,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
 		"isolatedModules": true,
-		"lib": ["esnext"],
 		"module": "esnext",
-		"moduleDetection": "force",
 		"moduleResolution": "bundler",
 		"noEmit": true,
 		"noPropertyAccessFromIndexSignature": true,
@@ -20,6 +15,5 @@
 		"strict": true,
 		"target": "esnext"
 	},
-	"exclude": ["**/dist/**"],
-	"include": ["packages/**/*"]
+	"exclude": ["**/dist/**"]
 }
