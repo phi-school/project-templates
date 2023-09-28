@@ -26,8 +26,8 @@ export const generateTsupConfig = ({
 import baseConfig from '${baseConfigPath}'
 
 export default defineConfig({
-...baseConfig,
-entry: ${JSON.stringify(entryPoints, null, 2)},
+  ...baseConfig,
+  entry: ${JSON.stringify(entryPoints, null, 2)},
 })
 `
 }

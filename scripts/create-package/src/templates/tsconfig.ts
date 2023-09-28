@@ -23,9 +23,7 @@ type TsConfigOptions = {
 export const generateTsConfig = ({
 	baseConfigPath = '../../tsconfig.json',
 	baseUrl = '.',
-	paths = {
-		'@/types': ['src/types'],
-	},
+	paths = {},
 	include = ['src/**/*'],
 	exclude = ['dist'],
 }: TsConfigOptions = {}): string => {

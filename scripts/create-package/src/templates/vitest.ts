@@ -22,12 +22,12 @@ export const generateVitestConfig = ({
 import baseConfig from '${baseConfigPath}'
 
 export default mergeConfig(
-baseConfig,
-defineConfig({
-  resolve: {
-    alias: ${JSON.stringify(alias, null, 2)},
-  },
-}),
+  baseConfig,
+  defineConfig({
+    resolve: {
+      alias: ${JSON.stringify(alias, null, 2)},
+    },
+  }),
 )
 `
 }
