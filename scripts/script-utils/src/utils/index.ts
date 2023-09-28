@@ -1,2 +1,2 @@
-export { createDirectory } from './createDirectory'
-export { writeFile } from './writeFile'
+export { createDirectory } from './create-directory'
+export { writeFile } from './write-file'
