@@ -1,4 +1,5 @@
 import enquirer from 'enquirer'
+
 import type { PackageJsonOptions } from '@/templates'
 
 const { prompt } = enquirer

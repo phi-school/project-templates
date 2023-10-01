@@ -1,6 +1,6 @@
 {
-	"private": true,
 	"name": "create-package",
+	"private": true,
 	"main": "./dist/main.mjs",
 	"types": "./dist/main.d.ts",
 	"exports": {

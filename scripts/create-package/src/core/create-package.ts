@@ -1,6 +1,10 @@
-import { createDirectory, writeFile } from 'script-utils'
 import { dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+
+import { createDirectory, writeFile } from 'script-utils'
+
+import { getPaths } from './paths'
+
 import {
 	generatePackageJson,
 	generateTsConfig,
@@ -8,7 +12,6 @@ import {
 	generateVitestConfig,
 	type PackageJsonOptions,
 } from '@/templates'
-import { getPaths } from './paths'
 
 /**
  * Creates a new package with the specified options.

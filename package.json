@@ -11,7 +11,6 @@
 		"format:check": "prettier --check \"**/*.{js,json,md,ts}\"",
 		"format": "prettier --write \"**/*.{js,json,md,ts}\"",
 		"lint": "turbo lint",
-		"prepack": "clean-pkg-json",
 		"prepare": "husky install",
 		"publish": "changeset publish",
 		"release": "pnpm run build && pnpm run publish",
@@ -22,8 +21,8 @@
 		"@changesets/cli": "^2.26.2",
 		"@commitlint/cli": "^17.7.1",
 		"@commitlint/config-conventional": "^17.7.0",
+		"@phi.school/eslint-config": "^0.1.0",
 		"@types/node": "^20.6.3",
-		"clean-pkg-json": "^1.2.0",
 		"dotenv": "^16.3.1",
 		"eslint": "^8.49.0",
 		"husky": "^8.0.3",
@@ -37,6 +36,11 @@
 	"commitlint": {
 		"extends": [
 			"@commitlint/config-conventional"
+		]
+	},
+	"eslintConfig": {
+		"extends": [
+			"@phi.school/eslint-config"
 		]
 	},
 	"lint-staged": {

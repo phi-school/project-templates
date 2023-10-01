@@ -1,6 +1,6 @@
 {
-	"private": true,
 	"name": "script-utils",
+	"private": true,
 	"main": "./dist/main.mjs",
 	"types": "./dist/main.d.ts",
 	"exports": {
