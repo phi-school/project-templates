@@ -9,7 +9,7 @@
 </p>
 
 <p>
- Welcome to phi school's <code>project-templates</code> repository. <br> Here, you'll find standardized templates to aid rapid and consistent development, ensuring <br> alignment with phi school's best practices.
+ Welcome to phi school's <code>project-templates</code> repository. <br/> Here, you'll find standardized templates to aid rapid and consistent development, <br/> ensuring alignment with phi school's best practices.
 </p>
 
 [Contribute!](#contributing--development) | [Request a Feature][github-issues-link] | [Report a Bug][github-issues-link]
@@ -48,11 +48,60 @@ As technology progresses, we will continually re-evaluate our toolset. Our commi
 
 The following table provides an overview of the templates currently included in the repository:
 
-| Template Name                             | Description                                                                                                                                             | Features                                                                                                  |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| [`node-ts-monorepo`](./node-ts-monorepo/) | A setup for a Node.js TypeScript monorepo in a reproducible, isolated dev environment. Ideal for managing multiple packages within a single repository. | Devbox, Turborepo, pnpm workspaces, Changesets, GitHub Actions, tsup, Vitest, ESLint, Prettier, and more. |
-| [`node-ts-package`]()                     | A single-package repository or "polyrepo" optimized for streamlined development and distribution.                                                       | Devbox, pnpm, semantic-release, GitHub Actions, tsup, Vitest, ESLint, Prettier, and more.                 |
-| [`readme`]()                              | A standardized template for creating README files. Ensures consistent documentation across phi school projects.                                         |                                                                                                           |
+<!-- Use an HTML table with a static width on the first column so that the template names don't wrap.  -->
+
+<table>
+	<thead>
+		<tr>
+			<th width="200">Template Name</th>
+			<th>Description</th>
+			<th>Features</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td width="200">
+				<a href="./node-ts-monorepo/">node-ts-monorepo</a>
+			</td>
+			<td>
+				A setup for a Node.js TypeScript monorepo in a reproducible, isolated
+				dev environment. Ideal for managing multiple packages within a single
+				repository.
+			</td>
+			<td>
+				Devbox, Turborepo, pnpm workspaces, Changesets, GitHub Actions, tsup,
+				Vitest, ESLint, Prettier, and more.
+			</td>
+		</tr>
+		<tr>
+			<td width="200">
+				<a href="./node-ts-package">node-ts-package</a>
+			</td>
+			<td>
+				A single-package repository or "polyrepo" optimized for streamlined
+				development and distribution.
+			</td>
+			<td>
+				Devbox, pnpm, semantic-release, GitHub Actions, tsup, Vitest, ESLint,
+				Prettier, and more.
+			</td>
+		</tr>
+		<tr>
+			<td width="200"><a href="./readme">readme</a></td>
+			<td>
+				A standardized template for creating README files. Ensures consistent
+				documentation across Acme projects.
+			</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<div align="right">
+  
+[![][back-to-top]](#readme-top)
+
+</div>
 
 ## Getting Started
 
@@ -99,6 +148,8 @@ cd <YOUR_PROJECT_NAME>
 Feedback and contributions are encouraged! If you know of a superior technology or implementation that is not included in our templates, please initiate a [discussion](https://github.com/phi-school/project-templates/discussions) and make a case for it. As the technological landscape is vast and continually evolving, we remain open-minded and constantly question our own assumptions.
 
 Please see the [Contributing Guide][contributing-guide] for more information.
+
+### Thank you to our contributors ❤️
 
 [![][contributors-contrib]][contributors-link]
 
