@@ -1,0 +1,65 @@
+{
+	"name": "",
+	"version": "0.0.0-semantic-release",
+	"description": "",
+	"keywords": [],
+	"license": "MIT",
+	"repository": "",
+	"author": "",
+	"files": [
+		"dist"
+	],
+	"module": "./dist/main.mjs",
+	"main": "./dist/main.js",
+	"types": "./dist/main.d.ts",
+	"exports": {
+		"require": {
+			"types": "./dist/main.d.ts",
+			"default": "./dist/main.js"
+		},
+		"import": {
+			"types": "./dist/main.d.mts",
+			"default": "./dist/main.mjs"
+		}
+	},
+	"scripts": {
+		"build": "tsup",
+		"format:check": "prettier --check \"**/*.{js,json,md,ts}\"",
+		"format": "prettier --ignore-path .gitignore --write '**/*.{js,json,md,ts}'",
+		"lint": "eslint --cache --fix --ignore-path .gitignore .",
+		"prepack": "pnpm build && clean-pkg-json",
+		"prepare": "husky install",
+		"test": "vitest",
+		"type-check": "tsc"
+	},
+	"engines": {
+		"node": ">=20.0.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.7.2",
+		"@commitlint/config-conventional": "^17.7.0",
+		"@phi.school/eslint-config": "^0.1.0",
+		"@types/node": "^20.8.2",
+		"clean-pkg-json": "^1.2.0",
+		"dotenv": "^16.3.1",
+		"eslint": "^8.50.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^14.0.1",
+		"prettier": "^3.0.3",
+		"tsup": "^7.2.0",
+		"typescript": "^5.2.2",
+		"vitest": "^0.34.6"
+	},
+	"commitlint": {
+		"extends": [
+			"@commitlint/config-conventional"
+		]
+	},
+	"eslintConfig": {
+		"extends": "@phi.school/eslint-config"
+	},
+	"lint-staged": {
+		"*.{js,ts}": "eslint --cache --fix",
+		"*.{js,json,md,ts}": "prettier --write"
+	}
+}

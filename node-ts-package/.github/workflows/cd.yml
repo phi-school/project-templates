@@ -1,0 +1,31 @@
+name: Continuous Deployment
+
+on:
+  push:
+    branches:
+      - 'main'
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install devbox
+        uses: jetpack-io/devbox-install-action@v0.7.0
+        with:
+          enable-cache: 'true'
+          project-path: './'
+
+      # Disable Husky's git hooks from interfering with Changesets' git commit
+      - name: Disable Husky
+        run: echo "HUSKY=false" >> $GITHUB_ENV
+
+      - name: Publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: pnpm dlx semantic-release --branches main
