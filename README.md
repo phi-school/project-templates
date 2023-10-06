@@ -61,7 +61,7 @@ The following table provides an overview of the templates currently included in 
 	<tbody>
 		<tr>
 			<td width="200">
-				<a href="./node-ts-monorepo/">node-ts-monorepo</a>
+				<a href="./node-ts-monorepo/README.md#readme-top">node-ts-monorepo</a>
 			</td>
 			<td>
 				A setup for a Node.js TypeScript monorepo in a reproducible, isolated
@@ -75,7 +75,7 @@ The following table provides an overview of the templates currently included in 
 		</tr>
 		<tr>
 			<td width="200">
-				<a href="./node-ts-package">node-ts-package</a>
+				<a href="./node-ts-package/README.md#readme-top">node-ts-package</a>
 			</td>
 			<td>
 				A single-package repository or "polyrepo" optimized for streamlined
@@ -87,7 +87,7 @@ The following table provides an overview of the templates currently included in 
 			</td>
 		</tr>
 		<tr>
-			<td width="200"><a href="./readme">readme</a></td>
+			<td width="200"><a href="./readme/README.md#readme-top">readme</a></td>
 			<td>
 				A standardized template for creating README files. Ensures consistent
 				documentation across Acme projects.

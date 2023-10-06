@@ -190,8 +190,8 @@ cd <YOUR_PROJECT_NAME> && devbox shell
 
 For an automated `devbox shell` load upon entering the project directory, [install & configure direnv](https://direnv.net/docs/installation.html).
 
-> **Note**\
-> Once you've successfully set up `direnv`, entering the project directory for the first time will prompt you with a security notification. You'll need to run `direnv allow` to grant permission. Afterwards, your development environment will auto-load upon directory entry.
+> **Note:**\
+> Upon entering the project directory for the first time after setting up `direnv`, you will be prompted with a security notification. You must run `direnv allow` to grant permission. Once allowed, your development environment will auto-load every time you enter the directory.
 
 <div align="right">
   
@@ -233,7 +233,7 @@ The template includes several handy scripts:
 
 ## Contributing
 
-Contributions are welcome! See the [Contributing & Development](../README.md#contributing--development) entry in the repository root for more info.
+Contributions are welcome! For a detailed guide on how to contribute, please refer to the [Contributing & Development](../README.md#contributing--development) section in the repository root.
 
 <div align="right">
   

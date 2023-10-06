@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
 <br/>
-<br/>
 
 <div align="center">
 
