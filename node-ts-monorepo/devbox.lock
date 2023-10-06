@@ -7,11 +7,11 @@
       "source": "devbox-search",
       "version": "8.7.5"
     },
-    "nodejs@latest": {
-      "last_modified": "2023-09-17T10:54:49Z",
-      "resolved": "github:NixOS/nixpkgs/5148520bfab61f99fd25fb9ff7bfbb50dad3c9db#nodejs_20",
+    "nodejs@20.8.0": {
+      "last_modified": "2023-09-29T17:45:58Z",
+      "resolved": "github:NixOS/nixpkgs/c182df2e68bd97deb32c7e4765adfbbbcaf75b60#nodejs_20",
       "source": "devbox-search",
-      "version": "20.6.1"
+      "version": "20.8.0"
     }
   }
 }

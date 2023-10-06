@@ -1,5 +1,5 @@
 {
-	"packages": ["nodePackages.pnpm@latest", "nodejs@latest"],
+	"packages": ["nodePackages.pnpm@latest", "nodejs@20.8.0"],
 	"shell": {
 		"init_hook": ["pnpm install"],
 		"scripts": {

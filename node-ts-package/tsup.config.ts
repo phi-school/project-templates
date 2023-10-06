@@ -8,6 +8,6 @@ export default defineConfig({
 	minify: true,
 	outDir: 'dist',
 	splitting: false,
-	target: 'node18',
+	target: 'node20',
 	treeshake: true,
 })
