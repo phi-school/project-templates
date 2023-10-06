@@ -7,7 +7,7 @@
 <h1>node-ts-package</h1>
 
 <p>
-  A feature-rich Node.js TypeScript package template designed to boost productivity, ensure code quality, and provide best practices out of the box.
+  A feature-rich Node.js TypeScript package template designed to boost productivity,<br/>ensure code quality, and provide best practices out of the box.
 </p>
 
 [Report Bug][github-issues-link] · [Request Feature][github-issues-link]
