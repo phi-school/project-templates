@@ -125,7 +125,7 @@ Future plans.
 
 Contributions are welcome...
 
-See [Contributing Guide][contributing-guide].
+See the [Contributing Guide][contributing-guide].
 
 ### Thank you to our contributors ❤️
 
@@ -149,9 +149,9 @@ List of credits/acknowledgments.
 
 ## License
 
-<!-- TODO Replace `{year}` and `{entity}` with appropriate values. -->
+<!-- TODO Replace `{license}`, `{year}` and `{entity}` with appropriate values. -->
 
-[License][license] © {year} {entity}
+This project is released under the [{license}](./LICENSE) License. © {year}-Present {entity}
 
 <div align="right">
   

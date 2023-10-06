@@ -173,7 +173,7 @@ This project is released under the [MIT](./LICENSE) License. © 2023-Present [ph
 
 [back-to-top]: https://img.shields.io/badge/-⇧_Back_To_Top-black?style=flat-square
 [changelog-link]: ./CHAGNELOG.md
-[contributing-guide]: ./CONTRIBUTING.md
+[contributing-guide]: ./.github/CONTRIBUTING.md
 [contributors-contrib]: https://contrib.rocks/image?repo=phi-school/project-templates
 [contributors-link]: https://github.com/phi-school/project-templates/graphs/contributors
 [github-issues-link]: https://github.com/phi-school/project-templates/issues
