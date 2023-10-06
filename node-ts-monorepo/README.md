@@ -85,7 +85,7 @@
 			<td>
 				A tool to identify and report on patterns found in ECMAScript/JavaScript
 				code. Configured with the comprehensive
-				<a href="https://github.com/phi-school/config/packages/eslint-config"
+				<a href="https://github.com/phi-school/config/tree/main/packages/eslint-config"
 					><code>@phi.school/eslint-config</code></a
 				>
 				to align with organization coding standards.
@@ -96,7 +96,7 @@
 			<td>
 				An opinionated code formatter that supports multiple languages and
 				integrates with most editors. Configured with
-					<a href="https://github.com/phi-school/config/packages/prettier-config"
+					<a href="https://github.com/phi-school/config/tree/main/packages/prettier-config"
 					><code>@phi.school/prettier-config</code></a
 				>, to adhere to the organization's preferred code style.
 			</td>
