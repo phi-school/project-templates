@@ -13,10 +13,10 @@ Thank you for your interest in contributing to phi school! This guide provides a
   - [2. Make Changes](#2-make-changes)
   - [3. Commit Changes](#3-commit-changes)
   - [4. Run Tests](#4-run-tests)
-  - [5. Push Changes](#6-push-changes)
-  - [6. Open a Pull Request](#7-open-a-pull-request)
-  - [7. Code Review](#8-code-review)
-  - [8. After Your Pull Request is Merged](#9-after-your-pull-request-is-merged)
+  - [5. Push Changes](#5-push-changes)
+  - [6. Open a Pull Request](#6-open-a-pull-request)
+  - [7. Code Review](#7-code-review)
+  - [8. After Your Pull Request is Merged](#8-after-your-pull-request-is-merged)
 - [Code of Conduct](#code-of-conduct)
 
 ## Getting Setup
