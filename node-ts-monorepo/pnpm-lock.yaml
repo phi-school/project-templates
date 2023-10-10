@@ -20,6 +20,9 @@ importers:
       '@phi.school/eslint-config':
         specifier: ^0.1.0
         version: 0.1.0(eslint@8.49.0)(ts-node@10.9.1)(typescript@5.2.2)
+      '@phi.school/prettier-config':
+        specifier: ^0.1.0
+        version: 0.1.0
       '@types/node':
         specifier: ^20.8.3
         version: 20.8.3
@@ -826,6 +829,10 @@ packages:
       - svelte
       - ts-node
       - typescript
+    dev: true
+
+  /@phi.school/prettier-config@0.1.0:
+    resolution: {integrity: sha512-hHAMQccPBDDKCZ2sM+N/6l2TA61PpbVKJGBC2kZGMyzF2VrXzDb+U3r+6sIbmna9ePYXTPFao74FHX14gC3KOg==}
     dev: true
 
   /@pkgr/utils@2.4.2:
