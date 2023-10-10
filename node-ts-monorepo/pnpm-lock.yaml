@@ -18,8 +18,8 @@ importers:
         specifier: ^17.7.0
         version: 17.7.0
       '@phi.school/eslint-config':
-        specifier: ^0.1.0
-        version: 0.1.0(eslint@8.49.0)(ts-node@10.9.1)(typescript@5.2.2)
+        specifier: ^0.1.1
+        version: 0.1.1(eslint@8.49.0)(ts-node@10.9.1)(typescript@5.2.2)
       '@phi.school/prettier-config':
         specifier: ^0.1.0
         version: 0.1.0
@@ -797,8 +797,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@phi.school/eslint-config@0.1.0(eslint@8.49.0)(ts-node@10.9.1)(typescript@5.2.2):
-    resolution: {integrity: sha512-VCa8uaVldEDm+PvFPXXS4Rue+x+4qsKGhRDfK2f8mis/xgB0y/EUAoozdDLPWNSqy4yj1V/uAX7APA7Ti0bJAw==}
+  /@phi.school/eslint-config@0.1.1(eslint@8.49.0)(ts-node@10.9.1)(typescript@5.2.2):
+    resolution: {integrity: sha512-wI7OnMUE7Yw+mNAP+YYjFsT/McG/CoeoL4dkltOpmJpA33wkuf8zayYa4OGohbtl7tubXov6BJhXhTI6YvCo6A==}
     dependencies:
       '@typescript-eslint/eslint-plugin': 6.7.3(@typescript-eslint/parser@6.7.3)(eslint@8.49.0)(typescript@5.2.2)
       '@typescript-eslint/parser': 6.7.3(eslint@8.49.0)(typescript@5.2.2)
