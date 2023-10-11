@@ -25,14 +25,14 @@
 		"@phi.school/prettier-config": "^0.1.0",
 		"@types/node": "^20.8.4",
 		"dotenv": "^16.3.1",
-		"eslint": "^8.49.0",
+		"eslint": "^8.51.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^14.0.1",
 		"prettier": "^3.0.3",
 		"tsup": "^7.2.0",
 		"turbo": "^1.10.15",
 		"typescript": "^5.2.2",
-		"vitest": "^0.34.4"
+		"vitest": "^0.34.6"
 	},
 	"commitlint": {
 		"extends": [
