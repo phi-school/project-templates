@@ -184,7 +184,7 @@ nix-env -iA nixpkgs.nodePackages.degit
 Once `degit` is installed, initiate your project with the following command, substituting `<YOUR_PROJECT_NAME>` with your project's name:
 
 ```bash
-degit phi-school/templates/node-ts-monorepo <YOUR_PROJECT_NAME>
+degit phi-school/project-templates/node-ts-monorepo <YOUR_PROJECT_NAME>
 cd <YOUR_PROJECT_NAME> && devbox shell
 ```
 
