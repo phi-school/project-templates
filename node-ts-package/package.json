@@ -6,11 +6,12 @@
 	"license": "MIT",
 	"repository": "",
 	"author": "",
+	"type": "module",
 	"files": [
 		"dist"
 	],
-	"module": "./dist/main.mjs",
 	"main": "./dist/main.js",
+	"module": "./dist/main.mjs",
 	"types": "./dist/main.d.ts",
 	"exports": {
 		"require": {
