@@ -23,6 +23,7 @@ export const generateTsupConfig = ({
 	baseConfigPath = '../../tsup.config',
 }: TsupConfigOptions = {}): string => {
 	return `import { defineConfig } from 'tsup'
+	
 import baseConfig from '${baseConfigPath}'
 
 export default defineConfig({

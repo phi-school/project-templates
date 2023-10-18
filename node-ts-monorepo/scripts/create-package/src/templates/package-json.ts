@@ -3,8 +3,11 @@
  */
 const basePackageJsonTemplate = {
 	version: '0.0.0',
-	module: './dist/main.mjs',
+	publishConfig: {
+		access: 'public',
+	},
 	main: './dist/main.js',
+	module: './dist/main.mjs',
 	types: './dist/main.d.ts',
 	exports: {
 		require: {
@@ -19,10 +22,8 @@ const basePackageJsonTemplate = {
 	scripts: {
 		build: 'tsup',
 		lint: 'eslint --cache .',
+		test: 'vitest',
 		'type-check': 'tsc',
-	},
-	publishConfig: {
-		access: 'public',
 	},
 }
 

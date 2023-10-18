@@ -7,11 +7,13 @@ type VitestConfigOptions = {
 }
 
 /**
- * Creates a Vitest config content string based on the provided configuration options.
+ * Creates a Vitest config content string based on the provided configuration
+ * options.
  *
  * @param {VitestConfigOptions} options - The configuration options.
  * @param {Record<string, string>} [options.alias] - The alias mappings.
- * @param {string} [options.baseConfigPath] - The path to the base Vitest config file.
+ * @param {string} [options.baseConfigPath] - The path to the base Vitest config
+ * file.
  * @returns {string} The content of the Vitest config file in string format.
  */
 export const generateVitestConfig = ({
@@ -19,11 +21,15 @@ export const generateVitestConfig = ({
 	baseConfigPath = '../../vitest.config',
 }: VitestConfigOptions = {}): string => {
 	return `import { defineConfig, mergeConfig } from 'vitest/config'
+  
 import baseConfig from '${baseConfigPath}'
 
 export default mergeConfig(
   baseConfig,
   defineConfig({
+    test: {
+			includeSource: ['src/**/*.{js,ts}'],
+		},
     resolve: {
       alias: ${JSON.stringify(alias, null, 2)},
     },
