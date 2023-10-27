@@ -20,8 +20,10 @@
 
 - [Features](#features)
 - [Prerequisites](#prerequisites)
+  - [Devbox](#devbox)
+  - [degit](#degit)
 - [Installation](#installation)
-- [Post Installation Checklist](#post-installation-checklist)
+- [Post-Installation Checklist](#post-installation-checklist)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
