@@ -10,11 +10,15 @@
 		"moduleResolution": "bundler",
 		"noEmit": true,
 		"noPropertyAccessFromIndexSignature": true,
+		"paths": {
+			"@/env": ["env"]
+		},
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"strict": true,
 		"target": "esnext",
 		"types": ["vitest/importMeta"]
 	},
-	"exclude": ["**/dist/**"]
+	"exclude": ["**/dist/**"],
+	"include": ["env"]
 }

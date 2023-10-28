@@ -1,9 +1,10 @@
 .cache
 .DS_Store
-.env
 .eslintcache
+.opencommit-commitlint
 .turbo
 .turbo
+*.env
 *.local
 *.log
 dist
