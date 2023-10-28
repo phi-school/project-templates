@@ -1,7 +1,8 @@
 .cache
 .DS_Store
-.env
 .eslintcache
+.opencommit-commitlint
+*.env
 *.local
 *.log
 dist

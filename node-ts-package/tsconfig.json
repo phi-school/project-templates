@@ -11,6 +11,10 @@
 		"moduleResolution": "bundler",
 		"noEmit": true,
 		"noPropertyAccessFromIndexSignature": true,
+		"paths": {
+			"@/env": ["env"],
+			"@/utils": ["utils"]
+		},
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"strict": true,
@@ -18,5 +22,5 @@
 		"types": ["vitest/importMeta"]
 	},
 	"exclude": ["**/dist/**"],
-	"include": ["src"]
+	"include": ["src", "env"]
 }
