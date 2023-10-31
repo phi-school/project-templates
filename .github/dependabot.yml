@@ -1,19 +1,19 @@
 version: 2
 updates:
-  # Updates for the note-ts-monorepo template
+  # Updates for the node-ts-monorepo template
   - package-ecosystem: 'npm'
     directory: '/node-ts-monorepo'
     schedule:
-      interval: 'daily'
+      interval: 'weekly'
     groups:
       node-ts-monorepo-dev-dependencies:
         dependency-type: 'development'
 
-  # Updates for the note-ts-package template
+  # Updates for the node-ts-package template
   - package-ecosystem: 'npm'
     directory: '/node-ts-package'
     schedule:
-      interval: 'daily'
+      interval: 'weekly'
     groups:
       node-ts-package-dev-dependencies:
         dependency-type: 'development'
