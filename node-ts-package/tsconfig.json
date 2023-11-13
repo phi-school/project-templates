@@ -12,7 +12,8 @@
 		"noEmit": true,
 		"noPropertyAccessFromIndexSignature": true,
 		"paths": {
-			"@/env": ["env"]
+			"@/env": ["env"],
+			"@/*": ["./src/*"]
 		},
 		"resolveJsonModule": true,
 		"skipLibCheck": true,

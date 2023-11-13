@@ -5,6 +5,7 @@
 		"jetpack",
 		"openai",
 		"opencommit",
+		"picklist",
 		"treeshake",
 		"tsup",
 		"valibot"
