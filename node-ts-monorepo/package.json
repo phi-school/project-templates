@@ -6,7 +6,6 @@
 	],
 	"scripts": {
 		"build": "turbo build",
-		"commit": "opencommit",
 		"create-package": "node scripts/create-package",
 		"dev": "turbo dev --no-cache --continue",
 		"format:check": "prettier --check \"**/*.{js,json,md,ts}\"",
@@ -31,7 +30,6 @@
 		"eslint": "^8.53.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^15.0.2",
-		"opencommit": "^3.0.4",
 		"prettier": "^3.0.3",
 		"tsup": "^7.2.0",
 		"turbo": "^1.10.16",

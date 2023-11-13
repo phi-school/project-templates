@@ -25,7 +25,6 @@
 	},
 	"scripts": {
 		"build": "tsup",
-		"commit": "opencommit",
 		"format:check": "prettier --check \"**/*.{js,json,md,ts}\"",
 		"format": "prettier --ignore-path .gitignore --write '**/*.{js,json,md,ts}'",
 		"lint": "eslint --cache --fix --ignore-path .gitignore .",
@@ -53,7 +52,6 @@
 		"eslint": "^8.50.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^15.0.1",
-		"opencommit": "^3.0.4",
 		"prettier": "^3.0.3",
 		"tsup": "^7.2.0",
 		"typescript": "^5.2.2",
