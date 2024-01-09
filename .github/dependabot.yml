@@ -17,12 +17,3 @@ updates:
     groups:
       node-ts-package-dev-dependencies:
         dependency-type: 'development'
-
-  # Updates for packages inside the scripts directory
-  - package-ecosystem: 'npm'
-    directory: '/scripts'
-    schedule:
-      interval: 'weekly'
-    groups:
-      dependencies-scripts:
-        dependency-type: 'production'
