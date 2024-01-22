@@ -44,7 +44,7 @@
 		"@commitlint/config-conventional": "^18.0.0",
 		"@commitlint/load": "^18.2.0",
 		"@phi.school/eslint-config": "^0.3.0",
-		"@phi.school/prettier-config": "^0.1.0",
+		"@phi.school/prettier-config": "^0.2.0",
 		"@types/node": "^20.8.2",
 		"@vitest/ui": "^1.1.1",
 		"clean-pkg-json": "^1.2.0",
@@ -55,7 +55,7 @@
 		"prettier": "^3.0.3",
 		"tsup": "^8.0.1",
 		"typescript": "^5.2.2",
-		"valibot": "^0.25.0",
+		"valibot": "^0.26.0",
 		"vite-tsconfig-paths": "^4.2.1",
 		"vitest": "^1.1.1"
 	},
