@@ -55,7 +55,7 @@
 		"prettier": "^3.0.3",
 		"tsup": "^8.0.1",
 		"typescript": "^5.2.2",
-		"valibot": "^0.28.1",
+		"valibot": "^0.29.0",
 		"vite-tsconfig-paths": "^4.2.1",
 		"vitest": "^1.1.1"
 	},
